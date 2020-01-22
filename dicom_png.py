@@ -2,7 +2,9 @@ import pydicom
 import os
 import matplotlib.pyplot as plt
 
+# Path where dicom files are stored
 LOCAL_DICOMS = "/Users/dicom"
+# Path where .png will be created and stored
 LOCAL_PNG = "/hdd/teste"
 
 for file_name in os.listdir(LOCAL_DICOMS):
